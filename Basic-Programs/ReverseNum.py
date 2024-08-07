@@ -8,10 +8,14 @@ while num!=0:
 
 print("The reversed number is :", reverse)
 
+
+
 ## using string slicing
 num1 = int(input("Enter a Number that you want to Reverse:"))
 rev = int(str(num1)[::-1])
 print("The reversed number is :", rev)
+
+
 
 ## using recursion
 def reverse(num2):
