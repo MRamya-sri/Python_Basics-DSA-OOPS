@@ -23,7 +23,7 @@ class Rectangle(Shape):
         return self.length * self.width
     
     def perimeter(self):
-        return 2* self.length * self.width
+        return 2* (self.length * self.width)
     
 #2nd subclass
 class Circle(Shape):
