@@ -3,7 +3,6 @@ num = int(input("Enter the number:"))
 #declaring
 sum = 0
 count = len(str(num))
-
 #assigning temp to store num
 temp = num
 
