@@ -1,0 +1,14 @@
+Typecodes
+
+-> Here are some common typecodes:
+
+'b': Signed char
+'B': Unsigned char
+'h': Signed short
+'H': Unsigned short
+'i': Signed int
+'I': Unsigned int
+'l': Signed long
+'L': Unsigned long   
+'f': Float
+'d': Double
