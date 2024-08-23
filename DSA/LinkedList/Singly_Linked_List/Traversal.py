@@ -3,12 +3,14 @@ class Node:
         self.data = data
         self.next = None
 
+
 def traverseandPrint(head):
     currentNode = head
     while currentNode:
         print(currentNode.data, end="->")
         currentNode = currentNode.next
     print("null")
+
 
 
 node1 = Node(5)
@@ -22,4 +24,8 @@ node2.next = node3
 node3.next = node4
 node4.next = node5
 
+
 traverseandPrint(node1)
+
+
+
