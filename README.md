@@ -1,4 +1,4 @@
-## This Repository contains Python Basic Programs, DSA and OOPs Concepts.
+## This Repository contains Python Basic Programs, DSA, and OOPs Concepts.
 
 
 
