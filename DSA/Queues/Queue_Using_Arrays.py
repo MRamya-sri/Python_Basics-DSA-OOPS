@@ -33,7 +33,7 @@ MyQueue.enqueue('XML')
 MyQueue.enqueue('HTML')
 
 #print array of queue
-print("QUEUE: ",MyQueue.queue)
+print("QUEUE: ", MyQueue.queue)
 
 #dequeue element
 print("Dequeue of Element: ", MyQueue.dequeue())
