@@ -26,7 +26,12 @@ nodeB.right = nodeF
 nodeF.left = nodeG
 
 
-#printing E
+def PreOrderTraversal(node):
+    if node is None:
+        return
+    print(node.data, end=",")
+    PreOrderTraversal(node.left)
+    PreOrderTraversal(node.right)
 
-print("root.right.left: ", root.right.left.data)
-
+print("The Pre-Order Traversal of Tree is:\n")
+PreOrderTraversal(root)
