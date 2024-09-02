@@ -31,24 +31,18 @@ node15.right = node19
 
 node19.left = node18
 
-# Traverse before insertion
-print("Traversal of elements: ")
+# Traverse
+print("Traversal: ")
 inOrderTraversal(root)
-print()  # For newline after traversal
+print()
 
-def Insert(node, data):
-    if node is None:
-        return TreeNode(data)
-    else:
-        if data < node.data:
-            node.left = Insert(node.left, data)
-        elif data > node.data:
-            node.right = Insert(node.right, data)
-    return node
+def MinValue(node):
+    current = node
+    while current.left is not None:
+        current = current.left
+    return current
 
-# Insert new value
-Insert(root, 21)
+# Find the minimum value node and print its value
+min_node = MinValue(root)
+print(f"Min Value is: {min_node.data}")
 
-# Traverse after insertion
-print("After Inserting 21: ")
-inOrderTraversal(root)
