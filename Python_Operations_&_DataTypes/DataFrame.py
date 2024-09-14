@@ -16,3 +16,7 @@ print(f'The name of maximum age person is : {highest_age_name}')
 #access the city of 'Rishitha'
 Rishitha_city = df.loc[df['name'] == 'Rishitha', 'city'].values[0]
 print(f'city of Rishitha is : {Rishitha_city}')
+
+# Change "New York" to "Paris"
+df.loc[df['city'] == 'New York', 'city'] = 'Paris'
+print(f'changed "New York" to "Paris": {df}')
